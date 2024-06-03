@@ -5,20 +5,20 @@ export default function Home() {
   return (
     <div className="container">
       <h1>Links</h1>
-      <p className={styles.linkTemp}><Link  href={"/"}>Home</Link></p>
-      <p className={styles.linkTemp}><Link  href={"/carrinho"}>Carrinho</Link></p>
-      <p className={styles.linkTemp}><Link  href={"/enderecos/cadastrar"}>Cadastrar endereços</Link></p>
-      <p className={styles.linkTemp}><Link  href={"/enderecos/listar"}>Listar endereços</Link></p>
-      <p className={styles.linkTemp}><Link  href={"/ingredientes/cadastrar"}>Cadastrar ingredientes</Link></p>
-      <p className={styles.linkTemp}><Link  href={"/ingredientes/listar"}>Listar ingredientes</Link></p>
-      <p className={styles.linkTemp}><Link  href={"/pedidos/cadastrar"}>Cadastrar pedidos</Link></p>
-      <p className={styles.linkTemp}><Link  href={"/pedidos/listar"}>Listar pedidos</Link></p>
-      <p className={styles.linkTemp}><Link  href={"/produtos/cadastrar"}>Cadastrar produtos</Link></p>
-      <p className={styles.linkTemp}><Link  href={"/produtos/listar"}>Listar produtos</Link></p>
-      <p className={styles.linkTemp}><Link  href={"/usuarios/cadastrar"}>Cadastrar usuarios</Link></p>
-      <p className={styles.linkTemp}><Link  href={"/usuarios/listar"}>Listar usuarios</Link></p>
-      <p className={styles.linkTemp}><Link  href={"/usuarios/login"}>Login</Link></p>
-      <p className={styles.linkTemp}><Link  href={"/usuarios/recsenha"}>Recuperação de senha</Link></p>    
+      <Link  href={"/"}><p className={styles.linkTemp}>Home</p></Link>
+      <Link  href={"/carrinho"}><p className={styles.linkTemp}>Carrinho</p></Link>
+      <Link  href={"/enderecos/cadastrar"}><p className={styles.linkTemp}>Cadastrar endereços</p></Link>
+      <Link  href={"/enderecos/listar"}><p className={styles.linkTemp}>Listar endereços</p></Link>
+      <Link  href={"/ingredientes/cadastrar"}><p className={styles.linkTemp}>Cadastrar ingredientes</p></Link>
+      <Link  href={"/ingredientes/listar"}><p className={styles.linkTemp}>Listar ingredientes</p></Link>
+      <Link  href={"/pedidos/cadastrar"}><p className={styles.linkTemp}>Cadastrar pedidos</p></Link>
+      <Link  href={"/pedidos/listar"}><p className={styles.linkTemp}>Listar pedidos</p></Link>
+      <Link  href={"/produtos/cadastrar"}><p className={styles.linkTemp}>Cadastrar produtos</p></Link>
+      <Link  href={"/produtos/listar"}><p className={styles.linkTemp}>Listar produtos</p></Link>
+      <Link  href={"/usuarios/cadastrar"}><p className={styles.linkTemp}>Cadastrar usuarios</p></Link>
+      <Link  href={"/usuarios/listar"}><p className={styles.linkTemp}>Listar usuarios</p></Link>
+      <Link  href={"/usuarios/login"}><p className={styles.linkTemp}>Login</p></Link>
+      <Link  href={"/usuarios/recsenha"}><p className={styles.linkTemp}>Recuperação de senha</p></Link>    
     </div>
   );
 }
